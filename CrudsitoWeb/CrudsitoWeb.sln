@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrudsitoWeb", "CrudsitoWeb\CrudsitoWeb.csproj", "{F9756827-7382-4694-9229-E8DD821C90EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrudsitoWeb", "CrudsitoWeb.csproj", "{CE6512C6-63AB-48B2-AD0B-5B9BAB3A22C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F9756827-7382-4694-9229-E8DD821C90EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9756827-7382-4694-9229-E8DD821C90EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9756827-7382-4694-9229-E8DD821C90EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9756827-7382-4694-9229-E8DD821C90EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE6512C6-63AB-48B2-AD0B-5B9BAB3A22C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6512C6-63AB-48B2-AD0B-5B9BAB3A22C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6512C6-63AB-48B2-AD0B-5B9BAB3A22C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6512C6-63AB-48B2-AD0B-5B9BAB3A22C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
