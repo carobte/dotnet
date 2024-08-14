@@ -8,42 +8,52 @@
     <h1 class="display-4">Information</h1>
 </div>
 
-<table class="table table-striped">
+<table class="table table-striped mb-5">
     <thead>
         <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Phone Number</th>
             <th scope="col">Options</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <th scope="row">1</th>
+            <th scope="row">1037638</th>
             <td>Mark</td>
             <td>Otto</td>
+            <td>312345678</td>
             <td>
-                <button class="btn btn-warning">Edit</button>
-                <button class="btn btn-danger">Edit</button>
+                <button class="btn btn-info">Edit</button>
+                <button class="btn btn-danger">Delete</button>
             </td>
         </tr>
         <tr>
-            <th scope="row">2</th>
+            <th scope="row">1035624</th>
             <td>Jacob</td>
             <td>Thornton</td>
+            <td>312348761</td>
             <td>
-                <button class="btn btn-warning">Edit</button>
-                <button class="btn btn-danger">Edit</button>
+                <button class="btn btn-info">Edit</button>
+                <button class="btn btn-danger">Delete</button>
             </td>
         </tr>
         <tr>
-            <th scope="row">3</th>
+            <th scope="row">4263638</th>
             <td>Larry</td>
             <td>Hills</td>
+            <td>319876554</td>
             <td>
-                <button class="btn btn-warning">Edit</button>
-                <button class="btn btn-danger">Edit</button>
+                <button class="btn btn-info">Edit</button>
+                <button class="btn btn-danger">Delete</button>
             </td>
         </tr>
     </tbody>
 </table>
+
+<div class="text-center">
+    <a asp-area= "" asp-page="/Add">
+    <button class="btn btn-primary">Add new user</button> 
+    </a>
+</div>
