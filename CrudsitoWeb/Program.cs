@@ -1,7 +1,16 @@
+using CrudsitoWeb.Database;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+// Conection with DB
+builder.Services.AddDbContext<AppDbContext>(options => options.UseMySql(
+    builder.Configuration.GetConnectionString("ConexionDBCrud"), ServerVersion.Parse("8.0.36")
+));
+
 
 var app = builder.Build();
 
