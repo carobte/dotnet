@@ -9,14 +9,14 @@ builder.Services.AddControllersWithViews();
 // Enviroment var
 
 var host = Environment.GetEnvironmentVariable("DB_HOST");
-var name = Environment.GetEnvironmentVariable("DB_NAME");
+var database = Environment.GetEnvironmentVariable("DB_DATABASE");
 var port = Environment.GetEnvironmentVariable("DB_PORT");
 var user = Environment.GetEnvironmentVariable("DB_USER");
 var password = Environment.GetEnvironmentVariable("DB_PASSWORD");
 
 // Conection string
 
-var mySqlConnection = $"Server={host};port={port};database={name};uid={user};password={password}";
+var mySqlConnection = $"Server={host};port={port};database={database};uid={user};password={password}";
 
 // Conection with MySQL database
 
