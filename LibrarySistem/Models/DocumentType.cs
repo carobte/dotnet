@@ -15,13 +15,13 @@ namespace LibrarySistem.Models
         public int Id { get; set; }
         
         [Column("name")]
-        [MinLength(50, ErrorMessage="The name field must be at most 50 characters")]
+        [MaxLength(50, ErrorMessage="The name field must be at most 50 characters")]
 
         public required string Name { get; set; }
         
         [Column("abbreviation")]
-        [MaxLength(2, ErrorMessage="The abbreviation field must have at least 2 characters")]
-        [MinLength(10, ErrorMessage="The abbreviation field must be at most 10 characters")]
+        [MinLength(2, ErrorMessage="The abbreviation field must have at least 2 characters")]
+        [MaxLength(10, ErrorMessage="The abbreviation field must be at most 10 characters")]
 
         public required string Abbreviation { get; set; }
         

@@ -16,7 +16,7 @@ var password = Environment.GetEnvironmentVariable("DB_PASSWORD");
 
 // Conection string
 
-var mySqlConnection = $"Server={host};port={port};database={database};uid={user};password={password}";
+var mySqlConnection = $"Server={host};port={port};database={database};user={user};password={password}";
 
 // Conection with MySQL database
 
